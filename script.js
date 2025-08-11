@@ -1,5 +1,5 @@
 // Typewriter effect
-const message = "Happy Birthday, My Love 🎉";
+const message = "Happy Birthday Mi gordita ";
 let i = 0;
 function typeWriter() {
   if (i < message.length) {
@@ -105,4 +105,5 @@ document.addEventListener('mousemove', (e) => {
   document.querySelector('.layer2').style.transform = `translate(${x * 40}px, ${y * 40}px)`;
   document.querySelector('.layer3').style.transform = `translate(${x * 60}px, ${y * 60}px)`;
 });
+
 
